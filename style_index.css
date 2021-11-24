@@ -2,15 +2,11 @@
   background-color: #f8f9fa;
 }
 
-.map {
-  margin-left: 15%;
-}
-
 .title_text {
-  font-size: 85px;
   position: absolute;
   padding-left: 10%;
   padding-top: 15%;
+  font-weight: normal;
 }
 
 #title_button {
@@ -20,17 +16,46 @@
 }
 
 #star1 {
+  /*仁園*/
   position: absolute;
   margin-left: 27%;
-  margin-top: 34%;
+  margin-top: 35%;
   width: 25px;
   height: 25px;
 }
 
 #star2 {
+  /*心園*/
   position: absolute;
   margin-left: 27%;
-  margin-top: 28%;
+  margin-top: 30%;
+  width: 25px;
+  height: 25px;
+}
+
+#star3 {
+  /*理園*/
+  position: absolute;
+  margin-left: 41.5%;
+  margin-top: 29.5%;
+  width: 25px;
+  height: 25px;
+}
+
+#star4 {
+  /*文園*/
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 12%;
+  width: 25px;
+  height: 25px;
+}
+
+#star5 {
+  /*輔園*/
+  position: absolute;
+  margin-left: 65.5%;
+  margin-top: 25%;
   width: 25px;
   height: 25px;
 }
