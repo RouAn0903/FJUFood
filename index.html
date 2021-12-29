@@ -13,19 +13,26 @@
 	$("#star1").click(function(){
 		$("#div1").fadeToggle();
 	});
+  $("#star2").click(function(){
+		$("#div2").fadeToggle();
+	});
+  $("#star3").click(function(){
+		$("#div3").fadeToggle();
+	});
+  $("#star4").click(function(){
+		$("#div4").fadeToggle();
+	});
+  $("#star5").click(function(){
+		$("#div5").fadeToggle();
+	});
 });
 $(function () { $("[data-toggle='tooltip']").tooltip(); });
   </script>
   </head>
   <title>輔大校園美食</title>
 </head>
+
 <body class="background" id="background">
-  
-  <h1 class="display-1 title_text">輔大校園美食</h1>
-  <button type="button" class="btn btn-outline-secondary" id="title_button" ><a href="#map" style="color:black;"">V</a> </button>
-  </div>
-  <img src="./Hw3/background2.png" class="img-fluid" alt="" width="100%">
-  
   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" >
     <div class="container-fluid">
       <a class="navbar-brand" href="#">FJU Food</a>
@@ -40,17 +47,8 @@ $(function () { $("[data-toggle='tooltip']").tooltip(); });
           <li class="nav-item" style="padding-left: 30px;">
             <a class="nav-link" href="#">| 地圖 </a>
           </li>
-          <li class="nav-item dropdown" style="padding-left: 30px;">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-             | 學餐介紹
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">輔園</a></li>
-              <li><a class="dropdown-item" href="#">文園</a></li>
-              <li><a class="dropdown-item" href="#">理園</a></li>
-              <li><a class="dropdown-item" href="#">仁園</a></li>
-              <li><a class="dropdown-item" href="#">心園</a></li>
-            </ul>
+          <li class="nav-item" style="padding-left: 30px;">
+            <a class="nav-link" href="#">| 校內美食 </a>
           </li>
           <li class="nav-item" style="padding-left: 30px;">
             <a class="nav-link" href="#">| 資料來源 </a>
@@ -58,6 +56,11 @@ $(function () { $("[data-toggle='tooltip']").tooltip(); });
       </div>
     </div>
   </nav> 
+
+  <h1 class="display-1 title_text">輔大校園美食</h1>
+  <button type="button" class="btn btn-outline-secondary" id="title_button" ><a href="#map" style="color:black;"">V</a> </button>
+  </div>
+  <img src="./Hw3/background2.png" class="img-fluid" alt="" width="100%">
   <br>
   <br>
   <p id="map">
@@ -66,7 +69,13 @@ $(function () { $("[data-toggle='tooltip']").tooltip(); });
     <img id="star3"src="./Hw3/star.png" alt="" >
     <img id="star4"src="./Hw3/star.png" alt="" >
     <img id="star5"src="./Hw3/star.png" alt="" >
-    <div id="div1" style="width:80px;height:80px;background-color:red;"></div>
+    
+    <img id="div2" src="./Hw3/心園.jpg" style="width:250px; height:250px; display:none;position: absolute; margin-left: 5%; margin-top: 20%;" alt="">
+    <img id="div1" src="./Hw3/仁園.jpg" style="width:250px; height:250px; display:none; margin-left: 5%; margin-top: 28%;" alt="">
+    <img id="div3" src="./Hw3/理園.jpg" style="width:250px; height:250px; display:none;position: absolute; margin-left: 45%; margin-top: 28%;" alt="">
+    <img id="div4" src="./Hw3/文園.jpg" style="width:250px; height:250px; display:none;position: absolute; margin-left: 50%; margin-top: 5%;" alt="">
+    <img id="div5" src="./Hw3/輔園.jpg" style="width:250px; height:250px; display:none;position: absolute; margin-left: 70%; margin-top: 20%;" alt="">
+
     <div class="text-center container">
       <img src="./Hw3/map.png" class="rounded mx-auto d-block img-responsive" alt="" width="900" height="550">
     </div>
