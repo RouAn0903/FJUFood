@@ -16,6 +16,46 @@
     crossorigin="anonymous"
   ></script>
   <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("#輔園").mouseenter(function(){
+    $("#輔園").css("width","100%","height","100%");
+  });
+  $("#輔園").mouseleave(function(){
+    $("#輔園").css("width","90%","height","90%");
+  });
+  $("#文園").mouseenter(function(){
+    $("#文園").css("width","100%","height","100%");
+  });
+  $("#文園").mouseleave(function(){
+    $("#文園").css("width","90%","height","90%");
+  });
+  $("#理園").mouseenter(function(){
+    $("#理園").css("width","100%","height","100%");
+  });
+  $("#理園").mouseleave(function(){
+    $("#理園").css("width","90%","height","90%");
+  });
+  $("#仁園").mouseenter(function(){
+    $("#仁園").css("width","100%","height","100%");
+  });
+  $("#仁園").mouseleave(function(){
+    $("#仁園").css("width","90%","height","90%");
+  });
+  $("#心園").mouseenter(function(){
+    $("#心園").css("width","100%","height","100%");
+  });
+  $("#心園").mouseleave(function(){
+    $("#心園").css("width","90%","height","90%");
+  });
+  $("#食科").mouseenter(function(){
+    $("#食科").css("width","100%","height","100%");
+  });
+  $("#食科").mouseleave(function(){
+    $("#食科").css("width","90%","height","90%");
+  });
+});
+  </script>
   <link rel="stylesheet" href="./style_index.css" />
     <title>輔大校園美食</title>
 </head>
@@ -59,10 +99,10 @@
                  <input id="輔園" type="image" src="./Hw3/輔園2.jpg" width="90%" onClick="location.href='food1.html'">
                 </td>
                 <td>
-                    <input type="image" src="./Hw3/文園2.jpg" width="90%" onClick="location.href='food2.html'">
+                    <input id="文園" type="image" src="./Hw3/文園2.jpg" width="90%" onClick="location.href='food2.html'">
                 </td>
                 <td>
-                    <input type="image" src="./Hw3/理園2.jpg" width="90%" onClick="location.href='food3.html'">
+                    <input id="理園" type="image" src="./Hw3/理園2.jpg" width="90%" onClick="location.href='food3.html'">
                 </td>
                 <!--<td><img src="輔園.jpg" width="90%"></td>
                 <td><img src="文園.jpg" width="90%"></td>
@@ -73,13 +113,13 @@
         <table align="center" style="width: 70%;">
           <tr>
             <td>
-                <input type="image" src="./Hw3/仁園2.jpg" width="90%" onClick="location.href='food4.html';">
+                <input id="仁園" type="image" src="./Hw3/仁園2.jpg" width="90%" onClick="location.href='food4.html';">
             </td>
             <td>
-                <input type="image" src="./Hw3/心園2.jpg" width="90%" onClick="location.href='food5.html';">
+                <input id="心園" type="image" src="./Hw3/心園2.jpg" width="90%" onClick="location.href='food5.html';">
             </td>
             <td>
-              <input type="image" src="./Hw3/食科2.jpeg" width="90%" onClick="location.href='food6.html';">
+              <input id="食科" type="image" src="./Hw3/食科2.jpeg" width="90%" onClick="location.href='food6.html';">
             </td>
             <!--<td><img src="仁園.jpg" width="90%"></td>
             <td><img src="心園.jpg" width="90%"></td>-->    
