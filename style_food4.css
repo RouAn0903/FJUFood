@@ -14,7 +14,7 @@ p2 {
   height: 70px;
   padding: 0px;
   text-align: center;
-  background-color: #ffeaea;
+  background-color: #dff1ff;
   border: solid 1px #c3c3c3;
 }
 #panel {
@@ -35,7 +35,7 @@ p2 {
   height: 70px;
   padding: 0px;
   text-align: center;
-  background-color: #ffeaea;
+  background-color: #dff1ff;
   border: solid 1px #c3c3c3;
 }
 #panel2 {
@@ -47,65 +47,19 @@ p2 {
   display: none;
 }
 
-#panel3,
-#button3 {
-  margin-left: 25%;
-  margin-right: 0%;
-  margin-top: 20px;
+div.square {
+  background-color: #dff1ff;
   width: 50%;
-  height: 70px;
-  padding: 0px;
-  text-align: center;
-  background-color: #ffeaea;
-  border: solid 1px #c3c3c3;
+  height: 50%;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 10%;
 }
-#panel3 {
-  margin-left: 25%;
-  margin-right: 0%;
-  margin-top: 0%;
-  height: auto;
-  width: 50%;
-  display: none;
-}
-
-#panel4,
-#button4 {
-  margin-left: 25%;
-  margin-right: 0%;
-  margin-top: 20px;
-  width: 50%;
-  height: 70px;
-  padding: 0px;
-  text-align: center;
-  background-color: #ffeaea;
-  border: solid 1px #c3c3c3;
-}
-#panel4 {
-  margin-left: 25%;
-  margin-right: 0%;
-  margin-top: 0%;
-  height: auto;
-  width: 50%;
-  display: none;
-}
-
-#panel5,
-#button5 {
-  margin-left: 25%;
-  margin-right: 0%;
-  margin-top: 20px;
-  width: 50%;
-  height: 70px;
-  padding: 0px;
-  text-align: center;
-  background-color: #ffeaea;
-  border: solid 1px #c3c3c3;
-}
-#panel5 {
-  margin-left: 25%;
-  margin-right: 0%;
-  margin-top: 0%;
-  height: auto;
-  width: 50%;
-  display: none;
+div.square2 {
+  border: 10px solid #f8f9fa;
+  width: 45%;
+  height: 35%;
+  position: absolute;
+  margin-left: 27.5%;
+  margin-top: 15%;
 }
