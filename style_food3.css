@@ -109,3 +109,20 @@ p2 {
   width: 50%;
   display: none;
 }
+
+div.square {
+  background-color: #f5ffdf;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+div.square2 {
+  border: 10px solid #f8f9fa;
+  width: 45%;
+  height: 35%;
+  position: absolute;
+  margin-left: 27.5%;
+  margin-top: 15%;
+}
